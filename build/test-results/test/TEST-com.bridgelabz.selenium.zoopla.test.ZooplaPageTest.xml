@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.selenium.zoopla.test.ZooplaPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T06:32:41" hostname="DESKTOP-9TKB724" time="94.442">
+  <properties/>
+  <testcase name="search_Details_for_location" classname="com.bridgelabz.selenium.zoopla.test.ZooplaPageTest" time="94.442"/>
+  <system-out><![CDATA[5200
+3683
+2820
+2687
+2600
+2300
+2275
+2250
+2201
+2200
+2200
+1850
+1690
+1650
+1600
+1560
+1452
+1450
+1300
+1300
+1150
+1100
+1050
+867
+555
+4 bed terraced house to rent in Edenvale Road, Mitcham CR4 - Zoopla
+0330 098 8915
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

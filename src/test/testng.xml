@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="F:/Selenium/ZooplaProject/src/test/java/com/bridgelabz/selenium/zoopla/test/ZooplaPageTest.java">
+        <classes>
+            <class name="com.bridgelabz.selenium.zoopla.test.ZooplaPageTest">
+                <methods>
+<!--                    <include name="Login_To_Application"/>-->
+                    <include name="search_Details_for_location"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
