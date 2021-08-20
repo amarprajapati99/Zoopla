@@ -12,6 +12,7 @@ public class AgentPage extends BaseClass{
 
     @FindBy (xpath = "//div[@class='clearfix']/div[1]/h1/a")
     WebElement agentName;
+
     @FindBy(xpath = "//p[@class='top-half listing-results-marketed']/span")
     List<WebElement> propertiesAgentsName;
 
@@ -20,6 +21,7 @@ public class AgentPage extends BaseClass{
     }
 
     public boolean checkAllProperty() {
+
         boolean flag = true;
         for (WebElement agent: propertiesAgentsName) {
             String[] agent_name = agent.getText().split(",") ;

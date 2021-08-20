@@ -4,9 +4,9 @@ com/bridgelabz/selenium/zoopla/base/BaseClass.java
  com.bridgelabz.selenium.zoopla.base.BaseClass
 com/bridgelabz/selenium/zoopla/pages/Login.java
  com.bridgelabz.selenium.zoopla.pages.Login
+com/bridgelabz/selenium/zoopla/pages/PropertyForSale.java
+ com.bridgelabz.selenium.zoopla.pages.PropertyForSale
 com/bridgelabz/selenium/zoopla/pages/Dashboard.java
  com.bridgelabz.selenium.zoopla.pages.Dashboard
 com/bridgelabz/selenium/zoopla/pages/AgentPage.java
  com.bridgelabz.selenium.zoopla.pages.AgentPage
-com/bridgelabz/selenium/zoopla/pages/PropertyForSale.java
- com.bridgelabz.selenium.zoopla.pages.PropertyForSale

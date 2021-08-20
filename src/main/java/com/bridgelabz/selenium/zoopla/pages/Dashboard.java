@@ -21,10 +21,13 @@ public class Dashboard extends BaseClass{
     }
 
     public void searchLocation() throws InterruptedException {
+
         Thread.sleep (1500);
         toRent.click();
+
         Thread.sleep(3000);
         searchBox.sendKeys("London");
+
         searchBox.sendKeys(Keys.ENTER);
         Thread.sleep(5000);
     }

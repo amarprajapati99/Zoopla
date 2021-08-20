@@ -15,11 +15,13 @@ public class PropertyForSale extends BaseClass{
 
     @FindBy(xpath = "//a[@data-testid = 'listing-details-link']")
     List<WebElement> propertiesList;
+
     @FindBy(xpath = "//div[@class='css-1e28vvi-PriceContainer e2uk8e7']")
     List<WebElement> propertyPrices;
 
     @FindBy(xpath = "//div[@class='css-1niyh5b-AgentHeader e11937k17']/a")
     WebElement agentLink;
+
     @FindBy(xpath = "//div[@class='css-8iph5w-AgentCallCTA e11937k10']/a")
     WebElement  agentNumber;
 
@@ -46,9 +48,15 @@ public class PropertyForSale extends BaseClass{
 
         Thread.sleep(1500);
         System.out.println(driver.getTitle());
+
         Thread.sleep(1500);
         System.out.println(agentNumber.getText());
+
         Thread.sleep(1500);
         agentLink.click();
+
+        Thread.sleep(1500);
+        agentsName.click ();
+        System.out.println (agentsName.getText ());
     }
 }
